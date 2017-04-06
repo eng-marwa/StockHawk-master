@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/ll_activity_line_graph"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            card_view:cardCornerRadius="5dp"
+            card_view:cardElevation="2dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:contentPadding="16dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/tr"
+                    android:paddingTop="@dimen/tr">
+
+                    <TextView
+                        style="@style/DetailsStockTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start|center_vertical"
+                        android:text="@string/stock_name"
+                        android:contentDescription="@string/stock_name"/>/>
+
+
+                    <TextView
+                        android:id="@+id/stock_name"
+                        style="@style/DetailsDataTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/stock_name"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/tr"
+                    android:paddingTop="@dimen/tr">
+
+                    <TextView
+                        style="@style/DetailsStockTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start|center_vertical"
+                        android:text="@string/stock_symbol"
+                        android:contentDescription="@string/stock_symbol"/>
+
+
+                    <TextView
+                        android:id="@+id/stock_symbol"
+                        style="@style/DetailsDataTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/stock_symbol"/>
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/tr"
+                    android:paddingTop="@dimen/tr">
+
+                    <TextView
+                        style="@style/DetailsStockTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start|center_vertical"
+                        android:text="@string/Lasttradedate"
+                        android:contentDescription="@string/Lasttradedate"/>
+
+
+                    <TextView
+                        android:id="@+id/last_trade_date"
+                        style="@style/DetailsDataTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/Lasttradedate"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/tr"
+                    android:paddingTop="@dimen/tr">
+
+                    <TextView
+                        style="@style/DetailsStockTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start|center_vertical"
+                        android:text="@string/open"
+                        android:contentDescription="@string/open"/>
+
+
+                    <TextView
+                        android:id="@+id/open"
+                        style="@style/DetailsDataTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/open"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/tr"
+                    android:paddingTop="@dimen/tr">
+
+                    <TextView
+                        style="@style/DetailsStockTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start|center_vertical"
+                        android:text="@string/close"
+                        android:contentDescription="@string/close"/>
+
+
+                    <TextView
+                        android:id="@+id/close"
+                        style="@style/DetailsDataTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/close"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/tr"
+                    android:paddingTop="@dimen/tr">
+
+                    <TextView
+                        style="@style/DetailsStockTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start|center_vertical"
+                        android:text="@string/daylow"
+                        android:contentDescription="@string/daylow"/>
+
+
+                    <TextView
+                        android:id="@+id/dayLow"
+                        style="@style/DetailsDataTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/daylow"/>
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/tr"
+                    android:paddingTop="@dimen/tr">
+
+                    <TextView
+                        style="@style/DetailsStockTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start|center_vertical"
+                        android:text="@string/dayhigh"
+                        android:contentDescription="@string/dayhigh"/>
+
+
+                    <TextView
+                        android:id="@+id/dayHigh"
+                        style="@style/DetailsDataTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/dayhigh"/>
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/tr"
+                    android:paddingTop="@dimen/tr">
+
+                    <TextView
+                        style="@style/DetailsStockTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start|center_vertical"
+                        android:text="@string/yearlow"
+                        android:contentDescription="@string/yearlow"/>
+
+
+                    <TextView
+                        android:id="@+id/yearLow"
+                        style="@style/DetailsDataTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/yearlow"/>
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/tr"
+                    android:paddingTop="@dimen/tr">
+
+                    <TextView
+                        style="@style/DetailsStockTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start|center_vertical"
+                        android:text="@string/yearhigh"
+                        android:contentDescription="@string/yearhigh"/>
+
+
+                    <TextView
+                        android:id="@+id/yearHigh"
+                        style="@style/DetailsDataTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/yearhigh"/>
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/tr"
+                    android:paddingTop="@dimen/tr">
+
+                    <TextView
+                        style="@style/DetailsStockTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start|center_vertical"
+                        android:text="@string/market"
+                        android:contentDescription="@string/market"/>
+
+
+                    <TextView
+                        android:id="@+id/market"
+                        style="@style/DetailsDataTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/market"/>
+                </TableRow>
+
+            </TableLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </ScrollView>
+
+</LinearLayout>

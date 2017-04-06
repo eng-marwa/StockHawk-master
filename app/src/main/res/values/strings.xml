@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Stock Hawk</string>
+
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+
+    <string name="pref_stocks_key">stocks</string>
+
+
+    <string name="pref_display_mode_key">displayMode</string>
+    <string name="pref_display_mode_default" translatable="false">@string/pref_display_mode_percentage_key</string>
+
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key">percentage</string>
+
+    <string name="default_stocks_yahoo" translatable="false">YHOO</string>
+    <string name="default_stocks_apple" translatable="false">AAPL</string>
+    <string name="default_stocks_microsoft" translatable="false">MSFT</string>
+    <string name="default_stocks_facebook" translatable="false">FB</string>
+
+
+    <string name="action_change_units" translatable="false">@string/pref_display_mode_key</string>
+
+
+    <string name="dialog_title">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+
+    <string name="error_no_network">No network connectivity! Will load stock cursor when the network is available.</string>
+    <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
+
+    <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
+    <string name="toast_no_connectivity">Will refresh when network available.</string>
+    <string name="error_msg">Error message</string>
+    <string name="stockLabel" translatable="false">Label</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_details" translatable="false">DetailsActivity</string>
+    <string name="toast_playservices_unrecoverable" translatable="false">Playservices Unrecoverable</string>
+    <string name="title_activity_main2" translatable="false">Main2Activity</string>
+    <string name="stock_name">Stock Name</string>
+    <string name="stock_symbol">Stock Symbol</string>
+    <string name="Lasttradedate">Last Trade Date</string>
+    <string name="open">Open</string>
+    <string name="close">Previous Close</string>
+    <string name="market">Market Captalization</string>
+    <string name="daylow">Day Low</string>
+    <string name="dayhigh">Day High</string>
+    <string name="yearlow">Year Low</string>
+    <string name="yearhigh">Year High</string>
+    <string name="price" translatable="false">Price</string>
+    <string name="change" translatable="false">Change</string>
+    <string name="pref_non_exist_stocks_key" translatable="false">NonExistStock</string>
+
+</resources>
